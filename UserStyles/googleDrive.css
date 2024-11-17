@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Fluent Google Drive
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Transparent background theme for Google Drive. Set Google Drive to Dark Mode.
+@author         geojeesan
+==/UserStyle== */
+
+@-moz-document url-prefix("https://drive.google.com/drive/") {
+    .vhoiae.LgGVmb {
+        --dt-background: #0000 !important;
+        --dt-surface-variant: #FFFFFF15 !important;
+        --dt-surface-container-lowest: #0000 !important;
+        --dt-surface-container-low: #00000000 !important;
+        --dt-surface: #FFFFFF10 !important;
+    }
+}

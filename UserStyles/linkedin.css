@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Fluent Linkedin
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Transparent background theme for Linkedin. Set Dark Mode. (Very Basic)
+@author         geojeesan
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.linkedin.com/") {
+    :root, body, html {
+        background-color: #00000000 !important;
+    }
+    :root {
+        --color-background-canvas: #FFFFFF10 !important;
+    }
+}

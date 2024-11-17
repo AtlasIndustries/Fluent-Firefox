@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Fluent Learn Microsoft
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Transparent background theme for Learn Microsoft. 
+@author         geojeesan
+==/UserStyle== */
+
+@-moz-document url-prefix("https://learn.microsoft.com/") {
+    body {
+        background-color: #ffffff09 !important;
+    }
+    .theme-dark {
+        background-color: #ffffff09 !important;
+        --theme-body-background: #ffffff00 !important;
+    }
+}

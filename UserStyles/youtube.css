@@ -1,0 +1,55 @@
+/* ==UserStyle==
+@name           Fluent YouTube
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Transparent background theme for YouTube. 
+@author         geojeesan
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.youtube.com/") {
+    html[dark] {
+        background-color: #0000 !important;
+    }
+    feedback-shape__fill {
+        background-color: #000 !important;
+    }
+    html[dark], [dark] {
+        --yt-spec-base-background: #0f0f0f00 !important;
+        --ytd-searchbox-background: #ffffff10 !important;
+    }
+    html .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
+        color: #000;
+    }
+    html .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
+        color: #000 !important;
+    }
+    #ytd-player {
+        background-color: #ffffff10 !important;
+    }
+    #dismissible.ytd-compact-video-renderer {
+        background-color: #ffffff10 !important;
+        border-radius: 12px !important;
+        height: 94px !important
+    }
+    ytd-engagement-panel-section-list-renderer {
+        background-color: #ffffff10 !important;
+    }
+    ytd-masthead[guide-persistent-and-visible] {
+        background-color: #00000000 !important;
+        border-radius: 12px !important;
+        backdrop-filter: blur(10px) !important;
+    }
+    iron-selector {
+        background-color: #00000000 !important;
+        backdrop-filter: blur(10px) !important;
+        border-radius: 12px !important;
+    }
+    tp-yt-app-toolbar {
+        background-color: #1f1f1fdd !important;
+        backdrop-filter: blur(10px) !important;
+    }
+    ytd-browse[page-subtype="home"], ytd-browse[page-subtype="subscriptions"] {
+        background-color: #ffffff10 !important;
+        border-radius: 12px 0 0 0 !important;
+    }
+}

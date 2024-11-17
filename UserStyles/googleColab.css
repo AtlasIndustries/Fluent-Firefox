@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name           Fluent Google Colab
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Transparent background theme for Google Collab. 
+@author         geojeesan
+==/UserStyle== */
+
+@-moz-document url-prefix("https://colab.research.google.com/") {
+    body {
+        background: transparent !important;
+    }
+    .top-floater {
+        background: #FFFFFF09 !important;
+    }
+    .notebook-content{
+        background: transparent !important;
+    }
+    .notebook-horizontal{
+        background: #FFFFFF09 !important;
+    }
+    colab-left-pane .resizer-contents {
+        background: transparent !important;
+    }
+    colab-tab-layout-container {
+        background: transparent !important;
+    }
+    colab-tab-pane {
+        background-color: transparent !important;
+    }
+    .notebook-cell-list {
+        background: transparent !important;
+    }
+    .main-content {
+        background: #FFFFFF10 !important;
+    }
+    colab-static-output-renderer {
+        background-color: #0000 !important;
+    }
+}

@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Fluent Wikipedia
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Transparent Theme for WikiWand. WikiWand Add-On REQUIRED. Set to Dark Mode. (Very Basic)
+@author         geojeesan
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.wikiwand.com/") {
+    :root .theme-system {
+        --color-bg: #0000;
+    }
+}

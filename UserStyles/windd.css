@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name           Fluent Windd Store
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Transparent background theme for Windd Store. Only makes sense if you have WinDynamicDesktop installed.
+@author         geojeesan
+==/UserStyle== */
+
+@-moz-document url-prefix("https://windd.info/themes/") {
+    body {
+        background-color: #00000000;
+    }
+    label, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        color: #ffffff;
+    }
+    .navbar {
+        background-color: #ffffff15 !important;
+        border-radius: 10px;
+        backdrop-filter: blur(10px) !important;
+    }
+    .img-thumbnail {
+        background-color: #ffffff15 !important;
+        border: 0;
+    }
+    .caption {
+        color: #ffffff;
+    }
+}

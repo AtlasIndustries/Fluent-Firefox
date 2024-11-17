@@ -1,0 +1,132 @@
+/* UserChrome.css */
+
+#sidebar-main, #sidebar-box {
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+  
+  #navigator-toolbox {
+    background-color: transparent !important;
+     border-bottom: none !important;
+  }
+  
+  #main-window {
+    background-color: transparent !important;
+  }
+  
+  #PersonalToolbar {
+    background-color: transparent !important;
+  }
+  
+  #nav-bar {
+    border-top: none !important;
+  }
+  
+  #nav-bar{
+    background-color: transparent !important;
+  }
+  
+  /* Search box transparency */
+  #urlbar {
+    --toolbar-field-background-color:  transparent !important;
+  }
+  
+  /* Fixing window control buttons */
+  #navigator-toolbox .titlebar-min .toolbarbutton-icon,
+  #navigator-toolbox .titlebar-restore .toolbarbutton-icon,
+  #navigator-toolbox .titlebar-max .toolbarbutton-icon{
+   opacity: 0;
+  }
+  
+  /* Fixing window control buttons, could need a change with different resolutions or windows scaling */
+  #navigator-toolbox .titlebar-buttonbox-container{
+    height: 28px;
+  }
+  
+  /* Fixing window control buttons, could need a change with different resolutions or windows scaling */
+  :root[sizemode="maximized"] #navigator-toolbox .titlebar-close .toolbarbutton-icon{
+  /*   opacity:0; */
+    margin-right:2px !important;
+  } 
+  
+  /* Remove the white line around the content window */
+  @media (-moz-bool-pref: "sidebar.revamp") {
+    #tabbrowser-tabbox {
+      outline: none !important;
+  /*     box-shadow: none !important; */
+    }
+  }
+  
+  .titlebar-buttonbox-container {
+  opacity: 0 !important;
+  }
+  
+  .browserContainer browser {
+    border-radius: 10px 0px 0px 0px !important;
+    /* box-shadow: var(--content-area-shadow); */
+  }
+  
+  #tabbrowser-tabbox {
+      background-color: transparent !important;
+      box-shadow: None !important;
+  }
+  
+  #tabbrowser-tabpanels {
+      background-color: transparent !important;
+  }
+  
+  .browserSidebarContainer {
+      background-color: transparent !important;
+  }
+  
+  .browserContainer {
+      background-color: transparent !important;
+  }
+  
+  .browserStack {
+      background-color: transparent !important;
+  }
+  
+  #statuspanel-label {
+      border: 0px !important;
+      border-radius: 5px !important;
+      background-color: #00000066 !important;
+  }
+  
+  :root,
+  panel,
+  dialog,
+  window {
+   --lwt-toolbarbutton-icon-fill-attention: #f39456 !important;
+   --button-primary-bgcolor: #f39456 !important;
+   --button-primary-hover-bgcolor: #f39456 !important;
+   --button-primary-active-bgcolor: #f39456 !important;
+   --in-content-primary-button-background: #f39456 !important;
+   --in-content-primary-button-background-hover: #f39456 !important;
+   --in-content-primary-button-background-active: #f39456 !important;
+   --input-border-color: #f39456 !important;
+   --uc-checkbox-checked-bgcolor: #f39456 !important;
+   --checkbox-checked-bgcolor: #f39456 !important;
+   --focus-outline-color: #f39456 !important;
+   --in-content-link-color: #f39456 !important;
+   --link-color: #f39456 !important;
+   --color-accent-primary: #f39456 !important;
+   --sidebar-background-color: #ffffff11 !important;
+   --lwt-accent-color: #ffffff00 !important;
+  }
+  
+  #identity-box {
+      display: None !important;
+  }
+  
+  #context-pocket, #context-savelinktopocket { 
+      display: none !important 
+  }
+  
+  /*--panel-background
+  --panel-border-radius*/
+  
+  menupopup, panel {
+    --panel-background: #2f2f2fFA !important;
+    --panel-border-radius: 10px !important;
+  }

@@ -1,0 +1,119 @@
+/* ==UserStyle==
+@name           Fluent JetPunk
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Transparent Theme for JetPunk. Fun Games, Trivia, and Quizzes. Try if you haven't already!
+@author         geojeesan
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.jetpunk.com/") {
+    body, html {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #00000000;
+    }
+    .orange-box {
+        background-color: #ffffff10 !important;
+        border: 0px !important;
+    }
+    a {
+        color: #f39456 !important
+    }
+    
+    .word-search-svg .text {
+        fill: #fff !important;
+    }
+    
+    .word-search-svg .line, .word-search-svg .polygon {
+        stroke: #fff !important;
+    }
+    
+    .word-search-svg.square {
+        border: 1px solid #fff;
+        border-radius: 6px;
+    }
+    .nav {
+        border-radius: 10px !important;
+        background-color: #ffffff10 !important;
+    }
+    .footer {
+        border-radius: 10px 10px 0 0 !important;
+        background-color: #ffffff10 !important;
+    }
+    .modal .modal-content {
+        background-color: #1f1f1f !important;
+    }
+    .date {
+        background-color: #ffffff10 !important;
+        border-radius: 10px;
+        padding-left: 15px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-top: 10px;
+    }
+    .hr-divider {
+        display: none;
+    }
+    .spotlight {
+        background-color: #ffffff10 !important;
+        border: 0px !important;
+        max-width: 100% !important;
+        margin-top: 10px !important;
+    }
+    .fp-daily, .fp-word-search {
+        background-color: #ffffff10 !important;
+        border: 0px !important;
+    }
+    .fp-word-search {
+        margin-right: 0px !important;
+    }
+    .placement-outer {
+        display: none !important;
+    }
+    .sd-game-page .grid-item {
+        background-color: #ffffff10 !important;
+        border: 0px !important;
+    }
+    .sd-game-page .grid-item.green {
+        background-color: green !important;
+        border: 0px !important;
+    }
+    button {
+        background-color: #ffffff15 !important;
+        color: #fff !important;
+    }
+    input[type="text"], input[type="password"], input[type="number"], textarea, select {
+        border-radius: 4px;
+        border: 0px;
+        padding: 4px 5px;
+        font-size: 16px;
+        background-color: #ffffff15;
+        color: #fff;
+    }
+    #stat-box, #points-box {
+        background-color: #ffffff10 !important;
+    }
+    #did-you-know-holder .did-you-know {
+        background-color: #ffffff10 !important;
+    }
+    .super-table-container th {
+        background-color: #ffffff10 !important;
+    }
+    .div-visited {
+        background-color: #ffffff10 !important;
+        border-radius: 5px 5px 0 0 !important;
+        border: 0px !important;
+    }
+    .hovered-path-x {
+        background-color: #ffffff10 !important;
+        border-radius: 0 0 5px 5px !important;
+        border: 0px !important;
+    }
+    .fixed-div {
+        background-color: #1f1f1f !important;
+        border-radius: 5px !important;
+    }
+}

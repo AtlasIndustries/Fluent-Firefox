@@ -1,0 +1,58 @@
+/* ==UserStyle==
+@name           Fluent Google
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Transparent background theme for Google. 
+@author         geojeesan
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.google.com/"), url-prefix("https://www.google.com/search?") {
+    body {
+        background-color: #FFFFFF09 !important;
+        --xhUGwc: #00000000 !important;
+    }
+    #gb {
+        background-color: #FFFFFF15 !important;
+        border-radius: 5px;
+    }
+    .c93Gbe {
+        background-color: #FFFFFF15 !important;
+    }
+    .sfbg {
+        background-color: #00000000 !important;
+    }
+    .minidiv .sfbg {
+        background-color: #303134 !important;
+    }
+    .appbar {
+        background-color: #00000000 !important;
+    }
+    .Ww4FFb {
+        background-color: #00000000 !important;
+    }
+    .FalWJb {
+        background-color: #00000000 !important;
+    }
+    .f6F9Be {
+        background-color: #FFFFFF15 !important;
+        border-radius: 10px 10px 0 0 !important;
+    }
+    .Lu57id {
+        background-color: #00000000 !important;
+    }
+    .GKS7s {
+        background-color: #FFFFFF15 !important;
+    }
+/*     .dodTBe {
+        background-color: #FFFFFF15 !important;
+        border-radius: 10px 10px 0 0 !important;
+    }  */
+    .minidiv .sfbg {
+        background-color: #1f1f1fee !important;
+        backdrop-filter: blur(10px) !important;
+        border-radius: 10px !important;
+    }
+    .vIifob {
+        background-color: #FFFFFF10 !important;
+    }
+}

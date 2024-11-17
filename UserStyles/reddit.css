@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           Fluent Reddit
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Transparent background theme for Reddit. 
+@author         geojeesan
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.reddit.com/") {
+    :root {
+        --color-neutral-background: #0000 !important;
+    }
+    .bg-neutral-background {
+        background-color: #FFFFFF10 !important;
+    }
+    .border-solid {
+        border-style: None !important;
+    }
+    .bg-neutral-background-weak {
+        background-color: #FFFFFF10 !important;
+    }
+    reddit-header-large {
+        border-radius: 10px 0 0 0 !important;
+        background-color: #1f1f1f !important;
+    }
+    :root.theme-dark .grid-container.grid {
+        --color-neutral-background: #00000000;
+    }
+}

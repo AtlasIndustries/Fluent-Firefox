@@ -1,0 +1,78 @@
+/* ==UserStyle==
+@name           Fluent Canvas LMS
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Transparent background theme for Canvas. Better Canvas Extention is REQUIRED
+@author         geojeesan
+==/UserStyle== */
+
+@-moz-document url-prefix("") { /* Enter Canvas URL */
+    :root {
+        --bcbackground-0: #FFFFFF09;
+        --bcbackground-1: #FFFFFF09;
+        --bcbackground-2: #FFFFFF09;
+        --bclinks: #f39456; /* Accent Color */
+        --bcsidebar: #FFFFFF15;
+        --ic-brand-font-color-dark: #FFFFFF;
+    }
+    .ic-Dashboard-header__layout {
+        background-color: #FFFFFF10 !important;
+        border-radius: 10px;
+        padding-left: 20px;
+        border: 0px !important;
+    }
+    .bettercanvas-todo-svg {
+        fill: #FFFFFF !important;
+    }
+    .uob-thinborder {
+        color: #FFFFFF !important;
+        background-color: #FFFFFF09 !important;
+    }
+    #breadcrumbs {
+        background-color: #00000000 !important;
+    }
+    .bettercanvas-hover-preview {
+        background-color: #1f1f1f !important;
+    }
+    .bettercanvas-hover-preview::after {
+        background: linear-gradient(0deg, #1f1f1f 50%, transparent) !important;
+    }
+    .css-1eaecfq-baseButton__content {
+        color: #FFFFFF !important;
+    }
+    .with-left-side #left-side {
+        background-color: #00000000 !important;
+    }
+    .item-group-container{
+        background-color: #00000000 !important;
+    }
+    .header-bar{
+        background-color: #00000000 !important;
+    }
+    .module-sequence-footer .module-sequence-footer-content{
+        background-color: #00000000 !important;
+    }
+    .pages.show .page-title {
+        background-color: #00000000 !important;
+    }
+    .css-sg1rn7-view {
+        background-color: #00000000 !important;
+    }
+    .css-11zy9g-view--inlineBlock-inlineListItem {
+        color: #777777 !important;
+    }
+    .css-1rpus1y-baseButton__content {
+        background-color: #ffffff15 !important;
+        color: #ffffff !important;
+        border: #00000000 !important;
+    }
+    #nav-tray-portal > span > span {
+        background-color: #1f1f1f !important;
+    }
+    body {
+        background-color: #00000000 !important;
+    }
+    .ic-app-header {
+        border-radius: 10px !important;
+    }
+}

@@ -1,0 +1,51 @@
+:root,
+panel,
+dialog,
+window {
+ --lwt-toolbarbutton-icon-fill-attention: #f39456 !important;
+ --button-primary-bgcolor: #f39456 !important;
+ --button-primary-hover-bgcolor: #f39456 !important;
+ --button-primary-active-bgcolor: #f39456 !important;
+ --in-content-primary-button-background: #f39456 !important;
+ --in-content-primary-button-background-hover: #f39456 !important;
+ --in-content-primary-button-background-active: #f39456 !important;
+ --input-border-color: #f39456 !important;
+ --uc-checkbox-checked-bgcolor: #f39456 !important;
+ --checkbox-checked-bgcolor: #f39456 !important;
+ --focus-outline-color: #f39456 !important;
+ --in-content-link-color: #f39456 !important;
+ --color-accent-primary: #f39456 !important;
+ --in-content-page-background: #ffffff11 !important;
+ --body-bg-color: #00000000 !important;
+ --sidebar-toolbar-bg-color: #FFFFFF15 !important;
+ --toolbar-bg-color: #FFFFFF15 !important;
+ --newtab-background-color-secondary: #00000000 !important;
+}
+
+.sticky-container {
+	background-color: transparent !important;
+}
+
+.main-search {
+	background-color: transparent !important;
+}
+
+.main-heading {
+	background-color: transparent !important;
+}
+
+@-moz-document url("about:newtab") {  
+          body {
+              background-color: #FFFFFF10 !important;
+          }
+      }
+	  
+@-moz-document url(about:newtab), url(about:home){
+  .logo-and-wordmark .logo{
+    content: url("image.jpg") !important;
+  }
+  .search-handoff-button,
+  .tile{
+    background-color: #FFFFFF15 !important;
+  }
+}

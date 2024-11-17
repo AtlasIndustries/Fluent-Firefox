@@ -1,0 +1,90 @@
+/* ==UserStyle==
+@name         Fluent askubuntu.com
+@namespace    USO Archive
+@author       hikiko and modified by geojeesan
+@description  Transparent background theme for askubuntu.com. Why this website? IDK
+@version      1.0.0
+==/UserStyle== */
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("askubuntu.com") {
+
+    html, body, code, pre {
+        background: none !important;
+        background-color: #FFFFFF00 !important;
+        border: none !important;
+        color: #FFFFFF !important;
+        text-shadow: none !important;
+        --black-500: #FFFFFF !important;
+    }
+    
+    .topbar .topbar-links .search-container input[type="text"]  {
+        background: none !important;
+        background-color: #00000000 !important;
+        color: #FFFFFF !important;
+    }
+    
+    div, span, p, h1, h2, 
+    h3, table, tr, td, th,
+    ul, li, input, select, 
+    footer, header, nav {
+        background: none !important;
+        background-color: #00000000 !important;
+        border: none !important;
+        color: #FFFFFF !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    
+    hr {   
+        background-color: #FFFFFF10 !important;
+    }
+    
+    .arrow-up {
+        background: transparent !important;
+    }
+
+    a {
+        border: none !important;
+    }
+    
+    img {
+        opacity: .7 !important;
+        transition: opacity .2s;
+        border-radius: 0.5em !important;
+    }
+    img:hover, a:hover img {
+        opacity: 1 !important;
+        border-radius: 0.5em !important;
+    }
+    
+    .js-search-hints {
+        background-color: #1f1f1f !important;
+    }
+    header.s-topbar {
+        background-color: #1f1f1f !important;
+    }
+    .s-tag .post-tag {
+        color: #000 !important;
+    }
+    .magic-popup {
+        background-color: #1f1f1fEE !important;
+        border-radius: 10px;
+    }
+    #sidebar {
+        background-color: #ffffff10 !important;
+        border-radius: 10px;
+    }
+    #mainbar {
+        background-color: #ffffff10 !important;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    a.s-tag {
+        color: #000 !important;
+    }
+    a.s-tag:hover {
+        color: #f39456 !important;
+    }
+}

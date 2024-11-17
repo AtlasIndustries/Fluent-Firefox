@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Fluent Google Docs
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Transparent background theme for Google Docs. Docs After Dark Add-On is REQUIRED.
+@author         geojeesan
+==/UserStyle== */
+
+@-moz-document url-prefix("https://docs.google.com/document/") {
+    :root {
+        --primary-background-color: #1b1b1b00;
+        --secondary-background-color: #262626;
+    }
+    .outlines-widget-chaptered .kix-outlines-widget-header-contents {
+        background-color: #ffffff10 !important;
+    }
+}
