@@ -1,12 +1,12 @@
 # Fluent UI for Firefox 134
  
-##### Important Notes: 
+### Important Notes: 
 - There are no plans for any additional development for this project. This is just a proof of concept to mimic windows 11 fluent UI on firefox. 
 - Many webistes and browser elements may be broken because of this. DO NOT run it on your primary browser. 
 - The CSS code is very amature. Look through it at your own discretion
 - The top-right corner exit, maximize and minimize buttons are not part of this project. It is the yaru Theme by Nivuu which I forgot to change before taking the screenshots.
 
-#### Screenshots
+## Screenshots
 Home Page
 <img src="/Read Me Resources/HomePage.png" style="border-radius: 5px">
 
@@ -16,7 +16,7 @@ GitHub
 Google Drive
 <img src="/Read Me Resources/googledrive.png" style="border-radius: 5px">
 
-#### Instructions
+## Instructions
 <ol>
     <li>
         Make sure you have firefox nightly 134 installed. (This Repo might be outdated. It has only been tested on this version)
@@ -56,6 +56,6 @@ Google Drive
     </li>
 </ol>
 
-#### Accent Color
+## Accent Color
 
 Sorry there isn't an easy way to change the accent color universally. In the different CSS files change anything that looks orange to your prefered color. Install the firefox color add-on, download the firefoxColorTheme.zip file and edit orange there as well.
