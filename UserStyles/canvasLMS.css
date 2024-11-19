@@ -1,24 +1,25 @@
 /* ==UserStyle==
-@name           Fluent Canvas LMS
+@name           canvas.bham.ac.uk
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    Transparent background theme for Canvas. Better Canvas Extention is REQUIRED
-@author         geojeesan
+@description    A new userstyle
+@author         Me
 ==/UserStyle== */
 
-@-moz-document url-prefix("") { /* Enter Canvas URL */
+@-moz-document url-prefix("https://canvas.bham.ac.uk/") {
+    /* Insert code here... */
     :root {
         --bcbackground-0: #FFFFFF09;
         --bcbackground-1: #FFFFFF09;
         --bcbackground-2: #FFFFFF09;
-        --bclinks: #f39456; /* Accent Color */
+        --bclinks: #f39456;
         --bcsidebar: #FFFFFF15;
         --ic-brand-font-color-dark: #FFFFFF;
     }
     .ic-Dashboard-header__layout {
-        background-color: #FFFFFF10 !important;
         border-radius: 10px;
         padding-left: 20px;
+        backdrop-filter: blur(12px) !important;
         border: 0px !important;
     }
     .bettercanvas-todo-svg {
@@ -74,5 +75,39 @@
     }
     .ic-app-header {
         border-radius: 10px !important;
+        background-color: #0000 !important
+    }
+    .ic-app-main-content {
+        background-color: #ffffff09 !important;
+        border-radius: 10px 0 0 10px !important;
+    }
+    .ic-app-nav-toggle-and-crumbs {
+        border-bottom: 0 !important;
+    }
+    .ic-app-footer {
+        border-top: 0 !important;
+    }
+    .css-7naoe-textInput__facade {
+        color: #fff !important;
+    }
+    .css-7naoe-textInput__facade {
+        border: 0px !important;
+    }
+    .ic-app-header__menu-list-item--active {
+        background-color: #ffffff20 !important;
+        border-radius: 10px !important;
+    }
+    .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link, .ic-app-header__menu-list-link:hover {
+        background: #ffffff10 !important;
+        border-radius: 15px;
+    }
+    .css-1vfp3rz-text {
+        color: #bbb !important;
+    }
+    #assignments-student-footer {
+        background-color: #1f1f1fee !important;
+        border-radius: 10px 10px 0 0 !important;
+        border: 0px !important;
+        backdrop-filter: blur(10px) !important;
     }
 }

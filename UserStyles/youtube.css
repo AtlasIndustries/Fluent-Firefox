@@ -1,12 +1,13 @@
 /* ==UserStyle==
-@name           Fluent YouTube
+@name           www.youtube.com/watch
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    Transparent background theme for YouTube. 
-@author         geojeesan
+@description    A new userstyle
+@author         Me
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.youtube.com/") {
+    /* Insert code here... */
     html[dark] {
         background-color: #0000 !important;
     }
@@ -22,6 +23,12 @@
     }
     html .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
         color: #000 !important;
+    }
+    #secondary {
+        background-color: #ffffff10 !important;
+        border-radius: 12px !important;
+        border: 0 !important;
+        margin-right: 24px !important;
     }
     #ytd-player {
         background-color: #ffffff10 !important;
@@ -49,7 +56,16 @@
         backdrop-filter: blur(10px) !important;
     }
     ytd-browse[page-subtype="home"], ytd-browse[page-subtype="subscriptions"] {
-        background-color: #ffffff10 !important;
+        background-color: #ffffff09 !important;
         border-radius: 12px 0 0 0 !important;
+    }
+    .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text {
+        color: #f39456 !important;
+    }
+    .yt-core-attributed-string__link--call-to-action-color {
+        color: #f39456 !important;
+    }
+    .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {
+        color: #f39456 !important;
     }
 }

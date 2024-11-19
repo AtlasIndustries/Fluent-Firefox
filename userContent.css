@@ -17,8 +17,8 @@ window {
  --color-accent-primary: #f39456 !important;
  --in-content-page-background: #ffffff11 !important;
  --body-bg-color: #00000000 !important;
- --sidebar-toolbar-bg-color: #FFFFFF15 !important;
- --toolbar-bg-color: #FFFFFF15 !important;
+ --sidebar-toolbar-bg-color: #FFFFFF00 !important;
+ --toolbar-bg-color: #FFFFFF00 !important;
  --newtab-background-color-secondary: #00000000 !important;
 }
 
@@ -48,4 +48,19 @@ window {
   .tile{
     background-color: #FFFFFF15 !important;
   }
+}
+
+#viewerContainer {
+	background-color: #ffffff10 !important;
+	border-radius: 10px 0 0 0 !important;
+}
+
+#toolbarContainer {
+	box-shadow: none !important;
+	border-bottom: 0px !important;
+}
+
+#toolbarSidebar {
+	box-shadow: none !important;
+	border-bottom: 0px !important;
 }
